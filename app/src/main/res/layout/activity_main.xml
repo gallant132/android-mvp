@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/etpjg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Masukan Panjang Sisi"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/etlbr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="Masukan Lebar Sisi"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/btnluas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung Luas Persegi Panjang"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/btnkel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung Keliling Persegi Panjang"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/btnluaspersegi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung Luas Persegi"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/btnkelpersegi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung Keliling Persegi"/>
+
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/tvhasil"
+        android:layout_marginTop="15dp"
+        android:textSize="36dp"
+        android:text="Hasil"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+</LinearLayout>
